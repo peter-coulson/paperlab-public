@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaperLab Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background: #fff;
+            padding: 2rem 1rem;
+            text-align: left;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            line-height: 1.2;
+            color: #000;
+        }
+
+        nav {
+            margin-bottom: 1rem;
+        }
+
+        nav h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+        }
+
+        nav li {
+            margin-bottom: 0.5rem;
+        }
+
+        nav a {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        nav a:hover {
+            text-decoration: none;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        code {
+            background: #f5f5f5;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+            font-size: 0.9em;
+        }
+
+        pre {
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-bottom: 1rem;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        hr {
+            border: none;
+            margin: 2rem 0;
+        }
+
+        .loading {
+            padding: 2rem 0;
+            color: #000;
+        }
+
+        .error {
+            padding: 1rem;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">PaperLab Documentation</h1>
+
+        <p><strong>Created by Peter Coulson</strong><br>
+        Email: peterjcoulson@proton.me<br>
+        WhatsApp: +44 7516 405675</p>
+
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#beta">Beta Testing Guide</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+            </ul>
+        </nav>
+
+        <div id="content" class="loading">Loading documentation...</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
+    <script>
+        // Configure marked for better rendering
+        marked.setOptions({
+            breaks: true,
+            gfm: true
+        });
+
+        // Define documents to load
+        const documents = [
+            {
+                id: 'beta',
+                file: '/beta/index.md',
+                title: 'Beta Testing Guide'
+            },
+            {
+                id: 'privacy',
+                file: '/legal/privacy-policy.md',
+                title: 'Privacy Policy'
+            }
+        ];
+
+        // Load all documents
+        async function loadDocumentation() {
+            const contentDiv = document.getElementById('content');
+
+            try {
+                const sections = await Promise.all(
+                    documents.map(async (doc) => {
+                        const response = await fetch(doc.file);
+                        if (!response.ok) {
+                            throw new Error(`Failed to load ${doc.title}`);
+                        }
+                        const markdown = await response.text();
+                        const html = marked.parse(markdown);
+                        return `
+                            <section id="${doc.id}">
+                                ${html}
+                            </section>
+                        `;
+                    })
+                );
+
+                contentDiv.innerHTML = sections.join('');
+            } catch (error) {
+                contentDiv.innerHTML = `
+                    <div class="error">
+                        <strong>Error:</strong> ${error.message}
+                    </div>
+                `;
+            }
+        }
+
+        // Load documentation on page load
+        loadDocumentation();
+    </script>
+</body>
+</html>

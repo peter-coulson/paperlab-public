@@ -1,0 +1,12 @@
+[build]
+builder = "nixpacks"
+
+# Build-time environment variables (explicit configuration)
+[build.env]
+NIXPACKS_PYTHON_VERSION = "3.11"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3

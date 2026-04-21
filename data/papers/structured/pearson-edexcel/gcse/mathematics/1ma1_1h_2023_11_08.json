@@ -1,0 +1,763 @@
+{
+  "exam_type": {
+    "exam_board": "Pearson Edexcel",
+    "exam_level": "GCSE",
+    "subject": "Mathematics",
+    "paper_code": "1MA1/1H",
+    "display_name": "Paper 1 (Non-Calculator)"
+  },
+  "paper_instance": {
+    "exam_date": "2023-11-08",
+    "total_marks": 80
+  },
+  "grade_boundaries": [
+    {
+      "grade": "9",
+      "min_raw_marks": 67,
+      "display_order": 1
+    },
+    {
+      "grade": "8",
+      "min_raw_marks": 57,
+      "display_order": 2
+    },
+    {
+      "grade": "7",
+      "min_raw_marks": 48,
+      "display_order": 3
+    },
+    {
+      "grade": "6",
+      "min_raw_marks": 37,
+      "display_order": 4
+    },
+    {
+      "grade": "5",
+      "min_raw_marks": 26,
+      "display_order": 5
+    },
+    {
+      "grade": "4",
+      "min_raw_marks": 15,
+      "display_order": 6
+    },
+    {
+      "grade": "3",
+      "min_raw_marks": 9,
+      "display_order": 7
+    }
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out $6.3 \\times 2.4$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": "i",
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write down the value of $5^0$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": "ii",
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write down the value of $5^{-2}$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 3,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write $\\frac{2^5 \\times 2^4}{2^3}$ in the form $2^n$ where $n$ is an integer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write 156 as a product of its prime factors.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Find the highest common factor (HCF) of 156 and 130",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The mean length of 5 sticks is 4.2 cm. Nawal measured the length of one of the sticks as 7cm.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out the mean length of the other 4 sticks.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Nawal made a mistake. The stick was not 7cm long. It was 17 cm long. How does this affect your answer to part (a)?",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The point $P$ lies on the line $AB$. Use ruler and compasses to construct an angle of $90\u00b0$ at $P$. You must show all your construction lines.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Horizontal line with points A on the left, P in the middle, and B on the right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The diagram shows an isosceles triangle $ABD$ and the straight line $ABC$. $BA = BD$ and $x : y = 2 :1$. Work out the value of $w$.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Triangle $ABD$ with $D$ at the top, point $C$ on the extension of line $AB$ beyond $A$ (to the left). Angle at $B$ marked as $x\u00b0$ (bottom right vertex), angle $DAB$ marked as $y\u00b0$ (interior angle at bottom vertex $A$), angle $CAD$ marked as $w\u00b0$ (exterior angle at $A$, between $AD$ and $AC$). The triangle has two sides marked as equal ($AB$ and $BD$) marked with tick marks. Angle $w\u00b0$ is drawn noticeably smaller than angle $y\u00b0$."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Mano has three shelves of books. There are $x$ books on shelf A. There are $(3x + 1)$ books on shelf B. There are $(2x - 5)$ books on shelf C. There is a total of 44 books on the three shelves. All the books have the same mass. The books on shelf B have a total mass of 7500g. Work out the total mass of the books on shelf A.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The normal price of a mattress is reduced by 40% in a sale. The price of the mattress in the sale is \u00a3660. Work out the normal price of the mattress.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "To cook rice the number of cups of rice $(x)$ : the number of cups of water $(y) = 4 : 5$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use this information to draw a graph to show the relationship between the number of cups of rice and the number of cups of water needed to cook rice.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Grid with x-axis labeled 'Number of cups of rice' (0 to 10) and y-axis labeled 'Number of cups of water' (0 to 10)"
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": "i",
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Find the gradient of the line drawn in part (a).",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": "ii",
+          "display_order": 3,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Explain what this gradient represents.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The circumference of a circle is 10m. Work out the area of the circle. Give your answer in terms of $\\pi$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Alice recorded the number of cars going into a village on each of 80 days. The incomplete table and the incomplete box plot give information about her results.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Table showing: Least number 300, Lower quartile (blank), Median 900, Upper quartile (blank), Range 1000. Below is an incomplete box plot on a scale from 200 to 1400 cars showing median at 900."
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": "i",
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use the information in the table to complete the box plot.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": "ii",
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use the information in the box plot to complete the table.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 3,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "On some of these 80 days Alice saw fewer than 1200 cars going into the village. Work out an estimate for the number of days Alice saw fewer than 1200 cars going into the village.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The straight line L has equation $2y = 3x - 7$. Find an equation of the straight line perpendicular to L that passes through $(6, -5)$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Solid A and solid B are similar. The ratio of the height of solid A to the height of solid B is $2 : 5$. The volume of solid A is $12\\text{cm}^3$. Work out the volume of solid B.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out the value of $27^{\\frac{2}{3}} + \\left(\\frac{1}{2}\\right)^{-3}$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "An object falls from rest. Here is the distance-time graph for the distance ($d$ metres) fallen by the object $t$ seconds after it starts to fall. Work out an estimate for the gradient of the graph at $t = 3$. You must show how you get your answer.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Distance-time graph showing a curved line from origin (0,0) to approximately (7, 230). The curve increases at an increasing rate. X-axis labeled 'Time (seconds)' from 0 to 7, Y-axis labeled 'Distance (metres)' from 0 to 250."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "At the start of year $n$ the population of a species is $P_n$. At the start of the following year the population of the species is given by $P_{n+1} = kP_n$ where $k$ is a positive constant. The population of the species at the start of year 1 is 8 million. The population of the species at the start of year 2 is 6 million.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out the population of the species at the start of year 3",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "At the start of year 5 the value of $k$ is increased by 0.3 to a new constant value. Louise thinks that from the start of year 5 the population of the species would increase year on year. Is Louise correct? You must give a reason for your answer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Factorise $6x^2 - 5x - 4$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Hence, or otherwise, solve $6x^2 - 5x - 4 < 0$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Spinner A and spinner B are each spun once. The probability that spinner A lands on red is $\\frac{1}{4}$. The probability that both spinner A and spinner B land on red is $\\frac{1}{24}$. Work out the probability that one spinner lands on red and the other spinner does not land on red.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Here is the graph of $y = \\sin x\u00b0$ for $-180 \\leq x \\leq 180$",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Graph of sine function from -180 to 180 degrees on x-axis, with y-axis from -1 to 1. The curve shows one complete cycle from -180\u00b0 to 0\u00b0 and another from 0\u00b0 to 180\u00b0."
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use the graph to find estimates for the solutions of $\\sin x\u00b0 = 0.3$ for $-180 \\leq x \\leq 180$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write down a value of $x$ such that $\\sin(x + 20)\u00b0 = 0$ for $-180 \\leq x \\leq 180$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Here is triangle $ABC$. Find the size of angle $ABC$. You must show all your working.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Triangle ABC with vertices labeled. Side AB = 10cm, side BC = 5cm, side AC = $5\\sqrt{7}$ cm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "On the grid, draw the graph of $x^2 + y^2 = 169$",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Coordinate grid with x-axis and y-axis both ranging from -14 to 14"
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use your graph to find estimates for the solutions of the simultaneous equations $x^2 + y^2 = 169$ and $2y = 3x$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The 2nd term of a geometric sequence is $3 + 2\\sqrt{2}$. The 3rd term of the sequence is $13 + 9\\sqrt{2}$. Find the value of the common ratio of the sequence. Give your answer in the form $a + \\sqrt{b}$ where $a$ and $b$ are integers. You must show all your working.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

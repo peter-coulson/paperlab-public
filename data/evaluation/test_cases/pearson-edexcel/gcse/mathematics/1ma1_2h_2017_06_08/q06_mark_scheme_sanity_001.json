@@ -1,0 +1,14 @@
+{
+  "paper_identifier": "PEARSON-EDEXCEL-GCSE-MATHEMATICS-1MA1-2H-2017-06-08",
+  "question_number": 6,
+  "student_work_image_paths": [
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_2h_2017_06_08/q06_mark_scheme_sanity_001.png"
+  ],
+  "validation_type": "mark_scheme_sanity",
+  "notes": "Sanity check: perfect answer with full marks to validate correctness",
+  "expected_marks": {
+    "0": 1,
+    "1": 1,
+    "2": 1
+  }
+}

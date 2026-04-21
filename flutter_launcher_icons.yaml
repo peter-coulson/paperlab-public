@@ -1,0 +1,28 @@
+# App icon configuration
+# Source: assets/branding/app_icon.png (1024x1024)
+#
+# Usage:
+#   fvm flutter pub run flutter_launcher_icons
+#
+# Note: iOS icons need manual generation due to a color bug:
+#   magick assets/branding/app_icon.png -resize 1024x1024 ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+#   (repeat for other sizes - see iOS icon generation command below)
+
+flutter_launcher_icons:
+  image_path: "assets/branding/app_icon.png"
+
+  ios: false  # Disabled - use manual generation (see note above)
+
+  android: true
+
+  web:
+    generate: true
+    background_color: "#3b82f6"
+    theme_color: "#3b82f6"
+
+  macos:
+    generate: true
+
+  windows:
+    generate: true
+    icon_size: 48

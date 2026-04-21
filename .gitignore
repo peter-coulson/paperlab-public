@@ -1,0 +1,104 @@
+# .gitignore
+
+# Database
+marking.db
+marking.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Images (student work) - leading slash restricts to root only
+/images/
+
+# Data files (PDFs are local only - possible copyright/size issues)
+data/papers/sources/
+data/students/work/
+
+# OS
+.DS_Store
+
+# Quality reports
+.quality/
+
+# FVM (Flutter Version Management)
+# Keep: .fvm/fvm_config.json (committed to lock Flutter version)
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.lock
+
+# Flutter generated files
+*.g.dart
+*.freezed.dart
+
+# Android
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/.gradle/
+android/gradle/
+android/local.properties
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/key.properties
+
+# iOS/macOS
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+# ios/Podfile.lock - COMMITTED for reproducible builds
+ios/.symlinks/
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Pods/
+
+# Web
+web/icons/
+
+# FVM Version Cache
+.fvm/
+
+# Compiled binaries
+bin/agent_cli
+bin/window_helper

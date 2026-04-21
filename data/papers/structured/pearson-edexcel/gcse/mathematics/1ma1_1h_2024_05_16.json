@@ -1,0 +1,720 @@
+{
+  "exam_type": {
+    "exam_board": "Pearson Edexcel",
+    "exam_level": "GCSE",
+    "subject": "Mathematics",
+    "paper_code": "1MA1/1H",
+    "display_name": "Paper 1 (Non-Calculator)"
+  },
+  "paper_instance": {
+    "exam_date": "2024-05-16",
+    "total_marks": 80
+  },
+  "grade_boundaries": [
+    {"grade": "9", "min_raw_marks": 65, "display_order": 1},
+    {"grade": "8", "min_raw_marks": 55, "display_order": 2},
+    {"grade": "7", "min_raw_marks": 45, "display_order": 3},
+    {"grade": "6", "min_raw_marks": 34, "display_order": 4},
+    {"grade": "5", "min_raw_marks": 24, "display_order": 5},
+    {"grade": "4", "min_raw_marks": 14, "display_order": 6},
+    {"grade": "3", "min_raw_marks": 9, "display_order": 7}
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Here are the first four terms of an arithmetic sequence.\n\n$1 \\quad 5 \\quad 9 \\quad 13$\n\nFind an expression, in terms of $n$, for the $n$th term of this sequence.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out $3\\frac{4}{5} - 1\\frac{2}{3}$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Kevin was asked to work out $2\\frac{1}{3} \\times \\frac{5}{8}$\n\nHere is his working and his answer.\n\n$2\\frac{1}{3} \\times \\frac{5}{8} = \\frac{7}{3} \\times \\frac{5}{8} = \\frac{35}{24} = 1\\frac{9}{24}$\n\nKevin's answer is wrong.\n\nWhat mistake has Kevin made?",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The diagram shows a plan of a floor.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "L-shaped floor plan with outer dimensions 10m width and 8m height. A rectangular section is cut out from the bottom right, leaving a 6m wide section at the bottom. The right side shows 5m height for the upper portion."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "Petra is going to cover the floor with paint.\n\nPetra has 3 tins of paint.\nThere are 2.5 litres of paint in each tin.\n\nPetra thinks 1 litre of paint will cover $10\\text{m}^2$ of floor.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Assuming Petra is correct, does she have enough paint to cover the floor?\nYou must show all your working.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Actually, 1 litre of paint will cover $11\\text{m}^2$ of floor.\n\nDoes this affect your answer to part (a)?\nYou must give a reason for your answer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Here is a Venn diagram.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Venn diagram with universal set $\\mathscr{E}$ containing two overlapping circles $P$ and $Q$. In $P$ only: 12, 15. In the intersection $P \\cap Q$: 18. In $Q$ only: 10, 14. Outside both circles: 11, 13, 16, 17."
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write down the numbers that are in set $P'$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "A number is chosen at random from the universal set, $\\mathscr{E}$\n\nFind the probability that this number is in the set $P \\cup Q$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Sophie drives a distance of 513 kilometres on a motorway in France.\nShe pays 0.81 euros for every 10 kilometres she drives.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out an estimate for the total amount that Sophie pays.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Is your answer to part (a) an underestimate or an overestimate?\nGive a reason for your answer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Here is a straight line $L$ drawn on a grid.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Coordinate grid with $x$-axis from $-4$ to $4$ and $y$-axis from $-3$ to $7$. A straight line $L$ passes through approximately $(-4, -3)$, crossing the $y$-axis at $(0, 2)$."
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Find an equation for $L$.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$M$ is a different straight line with equation $y = 5x$\n\nWrite down the equation of a straight line parallel to $M$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Kasim has some small jars, some medium jars and some large jars.\nHe has a total of 400 jars.\n\n$\\frac{3}{8}$ of the 400 jars are empty.\n\nFor the empty jars,\n\nnumber of small jars : number of medium jars $= 3 : 4$\nnumber of medium jars : number of large jars $= 1 : 2$\n\nWork out the percentage of Kasim's jars that are empty small jars.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Len has 8 parcels.\n\nThe mean weight of the 8 parcels is 2.5 kg.\nThe mean weight of 3 of the parcels is 2 kg.\n\nWork out the mean weight of the other 5 parcels.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "total_marks": 1,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "In a sale, the normal price of a coat is reduced by $R\\%$\n\nGiven that\n\nsale price $= 0.7 \\times$ normal price\n\nfind the value of $R$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Solve the simultaneous equations\n\n$5x - 2y = 23$\n$2x - 3y = 18$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "diagram",
+              "display_order": 1,
+              "content_text": null,
+              "diagram_description": "Coordinate grid with $x$-axis from $-6$ to $6$ and $y$-axis from $-6$ to $6$. Triangle $A$ has vertices at $(-3, 2)$, $(-2, 2)$, and $(-2, 4)$."
+            },
+            {
+              "block_type": "text",
+              "display_order": 2,
+              "content_text": "Triangle $A$ is translated by the vector $\\begin{pmatrix} 6 \\\\ -4 \\end{pmatrix}$ to give triangle $B$.\n\nTriangle $B$ is rotated $90°$ clockwise about the point $(1, 2)$ to give triangle $C$.\n\nDescribe fully the single transformation that maps triangle $A$ onto triangle $C$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Here are some graphs.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Nine graphs labeled $A$ through $J$ (no $I$)"
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "Write down the letter of the graph that could have the equation\n\n(i) $y = x^2 - 4$\n\n(ii) $y = -x^3$\n\n(iii) $y = -\\frac{5}{x}$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The table gives information about the amount of time that each of 150 people were in a shop.\n\n| Time ($t$ minutes) | Frequency |\n|---|---|\n| $0 < t \\leq 10$ | 20 |\n| $10 < t \\leq 30$ | 70 |\n| $30 < t \\leq 35$ | 22 |\n| $35 < t \\leq 50$ | 30 |\n| $50 < t \\leq 60$ | 8 |",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "On the grid, draw a histogram for this information.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Empty grid for drawing a histogram, with axes starting from origin $(0, 0)$."
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out an estimate for the fraction of these 150 people who were in the shop for between 20 minutes and 40 minutes.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Expand and simplify $(3x - 1)(2x + 3)(x - 5)$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$OAB$ is a sector of a circle with centre $O$ and radius 6 cm.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Sector $OAB$ of a circle with centre $O$ at the bottom. Points $A$ and $B$ are at the ends of the arc. Both radii $OA$ and $OB$ are labeled as 6 cm."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "The length of the arc $AB$ is $5\\pi$ cm.\n\nWork out, in terms of $\\pi$, the area of the sector.\nGive your answer in its simplest form.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "There are only $n$ orange sweets and 1 white sweet in a bag.\n\nSaira takes at random a sweet from the bag and eats the sweet.\nShe then takes at random another sweet from the bag and eats this sweet.\n\nShow that the probability that Saira eats two orange sweets is $\\frac{n - 1}{n + 1}$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Rationalise the denominator of $\\frac{1}{\\sqrt{7}}$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Simplify fully $\\sqrt{80} - \\sqrt{5}$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Show that $0.\\dot{1}\\dot{5} + 0.2\\dot{2}\\dot{7}$ can be written in the form $\\frac{m}{66}$ where $m$ is an integer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "diagram",
+              "display_order": 1,
+              "content_text": null,
+              "diagram_description": "This is triangle $ABD$ with a cevian $AC$ drawn from vertex $A$ to point $C$ on base $\\overline{BD}$, dividing it into two smaller triangles: $\\triangle ABC$ and $\\triangle ACD$."
+            },
+            {
+              "block_type": "text",
+              "display_order": 2,
+              "content_text": "$ABC$ and $DAB$ are similar isosceles triangles.\n\n$AB = AC$\n$AD = BD$\n\n$BC : CD = 4 : 21$\n\nFind the ratio $AB : AD$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$2^x = \\frac{2^n}{\\sqrt[3]{2}} \\qquad 2^y = \\left(\\sqrt{2}\\right)^5$\n\nGiven that $x + y = 8$\n\nwork out the value of $n$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "A solid cuboid has a volume of $300 \\text{ cm}^3$\nThe cuboid has a total surface area of $370 \\text{ cm}^2$\n\nThe length of the cuboid is 20 cm.\nThe width of the cuboid is greater than the height of the cuboid.\n\nWork out the height of the cuboid.\nYou must show all your working.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Sketch the graph of $y = \\sin x°$ for $0 \\leq x \\leq 360$",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Empty coordinate axes with $x$-axis marked at 90, 180, 270, 360 and $y$-axis, origin labeled $O$."
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Solve the equation $2 \\sin x° = -1$ for $0 \\leq x \\leq 360$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 23,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$C$ is a circle with centre $(0, 0)$\n$L$ is a straight line.\n\nThe circle $C$ and the line $L$ intersect at the points $P$ and $Q$.\nThe coordinates of $P$ are $(5, 10)$\nThe $x$ coordinate of $Q$ is $-2$\n\n$L$ has a positive gradient and crosses the $y$-axis at the point $(0, k)$\n\nFind the value of $k$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

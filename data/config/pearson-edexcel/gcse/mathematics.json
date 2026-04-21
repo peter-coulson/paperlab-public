@@ -1,0 +1,73 @@
+{
+  "exam_board": "Pearson Edexcel",
+  "exam_level": "GCSE",
+  "subject": "Mathematics",
+  "papers": [
+    {
+      "paper_code": "1MA1/1H",
+      "display_name": "Paper 1 (Non-Calculator)"
+    },
+    {
+      "paper_code": "1MA1/2H",
+      "display_name": "Paper 2 (Calculator)"
+    },
+    {
+      "paper_code": "1MA1/3H",
+      "display_name": "Paper 3 (Calculator)"
+    },
+    {
+      "paper_code": "1MA1/1F",
+      "display_name": "Paper 1 Foundation (Non-Calculator)"
+    },
+    {
+      "paper_code": "1MA1/2F",
+      "display_name": "Paper 2 Foundation (Calculator)"
+    },
+    {
+      "paper_code": "1MA1/3F",
+      "display_name": "Paper 3 Foundation (Calculator)"
+    }
+  ],
+  "mark_type_groups": [
+    {
+      "paper_codes": ["1MA1/1H", "1MA1/2H", "1MA1/3H", "1MA1/1F", "1MA1/2F", "1MA1/3F"],
+      "mark_types": [
+        {
+          "code": "M",
+          "display_name": "Method Mark",
+          "description": "Awarded for correct mathematical method, not lost for purely numerical errors"
+        },
+        {
+          "code": "A",
+          "display_name": "Accuracy Mark",
+          "description": "Awarded for correct answer following correct working, dependent on preceding method marks"
+        },
+        {
+          "code": "B",
+          "display_name": "Independent Mark",
+          "description": "Awarded independent of method - for correct final answer, partially correct answer, or correct intermediate stage"
+        },
+        {
+          "code": "C",
+          "display_name": "Communication Mark",
+          "description": "Awarded for explanation, justification, or clear mathematical statement without ambiguity"
+        },
+        {
+          "code": "P",
+          "display_name": "Process Mark",
+          "description": "Awarded for setting up appropriate process or valid mathematical reasoning to find solution"
+        },
+        {
+          "code": "ft",
+          "display_name": "Follow Through",
+          "description": "Accuracy mark awarded when following through correctly from an earlier error"
+        },
+        {
+          "code": "SC",
+          "display_name": "Special Case",
+          "description": "Mark awarded for unique or alternative solution methods"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "GCSE Maths 1MA1-1H May 2024 Sanity",
+  "description": "Mark scheme sanity checks for Pearson Edexcel GCSE Mathematics Paper 1H, May 2024",
+  "test_case_json_paths": [
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q01_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q02_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q03_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q04_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q05_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q06_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q07_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q08_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q09_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q10_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q11_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q12_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q13_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q14_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q15_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q16_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q17_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q18_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q19_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q20_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q21_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q22_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2024_05_16/q23_mark_scheme_sanity_001.json"
+  ]
+}

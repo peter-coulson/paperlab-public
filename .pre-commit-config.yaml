@@ -1,0 +1,58 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.4
+    hooks:
+      # Run the linter
+      - id: ruff
+        args: [--fix]
+      # Run the formatter
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.14.0
+    hooks:
+      - id: mypy
+        additional_dependencies: [pydantic>=2.0.0, anthropic>=0.40.0, openai>=1.0.0, "boto3-stubs[s3]>=1.35.0", fastapi>=0.115.0, httpx>=0.27.0, pyjwt>=2.9.0, types-pyjwt>=1.7.0, "Pillow>=10.0.0", "types-Pillow>=10.0.0"]
+        args: [--strict]
+        exclude: ^tests/
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      - id: detect-private-key
+
+  # Flutter/Dart analysis
+  - repo: local
+    hooks:
+      - id: dart-fix
+        name: Dart Fix (Auto-fix lints)
+        entry: bash -c 'PATH="$HOME/.pub-cache/bin:$PATH" fvm dart fix --apply'
+        language: system
+        pass_filenames: false
+        files: \.dart$
+
+      - id: flutter-analyze
+        name: Flutter Analyze
+        entry: bash -c 'PATH="$HOME/.pub-cache/bin:$PATH" fvm flutter analyze --no-fatal-infos'
+        language: system
+        pass_filenames: false
+        files: \.dart$
+
+      - id: dart-format
+        name: Dart Format Check
+        entry: bash -c 'PATH="$HOME/.pub-cache/bin:$PATH" fvm dart format --set-exit-if-changed lib/'
+        language: system
+        pass_filenames: false
+        files: \.dart$
+
+      - id: pytest-imports
+        name: Import Smoke Test
+        entry: bash -c 'PYTHONPATH=src uv run pytest tests/test_imports.py -v --tb=short'
+        language: system
+        pass_filenames: false
+        files: \.py$

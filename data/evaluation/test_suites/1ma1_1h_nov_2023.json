@@ -1,0 +1,28 @@
+{
+  "name": "GCSE Maths Foundation (1H) - November 2023",
+  "description": "Complete sanity validation suite for Pearson Edexcel GCSE Mathematics Paper 1H (Foundation tier) from November 2023. This suite contains 22 test cases covering all questions from the exam, validating that the marking system correctly awards full marks to perfect student responses. Foundation tier papers test fundamental mathematical concepts and are designed for students targeting grades 1-5. This baseline suite is essential for regression testing and confirming basic marking accuracy across arithmetic, geometry, algebra, and statistics topics at foundation level.",
+  "test_case_json_paths": [
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q01_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q02_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q03_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q04_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q05_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q06_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q07_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q08_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q09_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q10_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q11_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q12_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q13_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q14_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q15_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q16_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q17_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q18_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q19_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q20_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q21_mark_scheme_sanity_001.json",
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q22_mark_scheme_sanity_001.json"
+  ]
+}

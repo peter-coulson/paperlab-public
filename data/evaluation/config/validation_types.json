@@ -1,0 +1,14 @@
+{
+  "validation_types": [
+    {
+      "code": "mark_scheme_sanity",
+      "display_name": "Mark Scheme Sanity Check",
+      "description": "Perfect answer with full marks to validate mark scheme correctness. Every question should have at least one sanity check test case. If this fails, the mark scheme has errors and must be fixed before other tests."
+    },
+    {
+      "code": "nuanced_marking",
+      "display_name": "Nuanced Marking Accuracy",
+      "description": "Partial credit scenarios testing the LLM's ability to apply mark scheme rules correctly. Tests method marks, accuracy dependencies, follow-through marking, and alternative methods."
+    }
+  ]
+}

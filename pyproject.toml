@@ -1,0 +1,129 @@
+[project]
+name = "paperlab"
+version = "0.1.0"
+description = "Automated past paper marking tool with working analysis for UK exams"
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "anthropic>=0.40.0",
+    "openai>=1.0.0",
+    "boto3>=1.35.0",
+    "python-dotenv>=1.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pyjwt[crypto]>=2.9.0",
+    "python-multipart>=0.0.9",
+    "Pillow>=10.0.0",
+]
+
+[project.scripts]
+paperlab = "paperlab.cli.main:main"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.0",
+    "mypy>=1.11.0",
+    "pre-commit>=4.0.0",
+    "boto3-stubs[s3]>=1.35.0",
+    "httpx>=0.27.0",
+    "types-pyjwt>=1.7.0",
+    "types-Pillow>=10.0.0",
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paperlab"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort
+    "N",      # pep8-naming
+    "UP",     # pyupgrade
+    "B",      # flake8-bugbear
+    "C4",     # flake8-comprehensions
+    "SIM",    # flake8-simplify
+    "TCH",    # flake8-type-checking
+    "Q",      # flake8-quotes
+]
+ignore = []
+
+[tool.ruff.lint.isort]
+known-first-party = ["paperlab"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_any_unimported = false
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+check_untyped_defs = true
+strict_equality = true
+mypy_path = "src"
+explicit_package_bases = true
+# M6: Additional strict checks for FastAPI
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+strict_optional = true
+warn_unreachable = true
+disallow_any_generics = true
+plugins = ["pydantic.mypy"]
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+
+# Third-party packages that ship with types
+[[tool.mypy.overrides]]
+module = "anthropic.*"
+ignore_missing_imports = false
+
+[[tool.mypy.overrides]]
+module = "openai.*"
+ignore_missing_imports = false
+
+# Tests: relax strict checks for pytest fixtures and test functions
+[[tool.mypy.overrides]]
+module = ["tests", "tests.*"]
+disallow_untyped_decorators = false
+disallow_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = "pytest.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+asyncio_mode = "auto"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--showlocals",
+]
+filterwarnings = ["error"]

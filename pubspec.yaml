@@ -1,0 +1,158 @@
+name: paperlab
+description: "Automated past paper marking with working analysis for UK exams."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+14
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'  # Flutter 3.38.5 (Dart 3.10.4) for MCP app control tools
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Typography - IBM Plex Serif + Inter fonts
+  google_fonts: ^6.2.1
+
+  # LaTeX rendering for mark schemes and mathematical expressions
+  flutter_math_fork: ^0.7.2
+
+  # Camera and photo selection
+  image_picker: ^1.1.2
+
+  # Swipe-to-delete gesture for list items
+  flutter_slidable: ^3.1.1
+
+  # Skeleton loading states
+  skeletonizer: ^2.1.1
+
+  # Fullscreen image viewer with pinch-zoom and swipe-dismiss
+  easy_image_viewer: ^1.5.1
+  flutter_svg: ^2.2.2
+
+  # Network image caching for presigned URLs
+  cached_network_image: ^3.3.0
+
+  # Device preview for testing across multiple screen sizes
+  device_preview: ^1.2.0
+  flutter_lucide: ^1.7.0
+
+  # Persistent local storage for user preferences
+  shared_preferences: ^2.3.4
+
+  # HTTP clients
+  http: ^1.6.0  # Used by connectivity_service for health checks
+  dio: ^5.9.0   # Primary HTTP client with interceptors
+
+  # Supabase authentication (Apple/Google sign-in, email/password)
+  supabase_flutter: ^2.12.0
+  sign_in_with_apple: ^6.1.0
+  google_sign_in: ^6.2.0
+  crypto: ^3.0.0  # For Apple nonce hashing
+
+  # Network connectivity detection
+  connectivity_plus: ^7.0.0
+
+  # State management
+  flutter_riverpod: ^2.4.0
+  riverpod_annotation: ^2.3.0
+
+  # URL-based routing for web support
+  go_router: ^14.0.0
+
+  # UUID generation for uploads
+  uuid: ^4.2.0
+
+  # Immutable state models
+  freezed_annotation: ^2.4.0
+
+  # Date formatting (for display names in list items)
+  intl: ^0.20.2
+
+  # External URL launching (Privacy Policy, Terms of Service links)
+  url_launcher: ^6.3.0
+
+  # Agent CLI dependencies (in bin/, so must be regular dependencies)
+  vm_service: ^14.0.0
+  args: ^2.4.0
+
+  # Flutter Driver for driver_main.dart (must be from SDK, not pub.dev)
+  flutter_driver:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Integration testing
+  integration_test:
+    sdk: flutter
+
+  # Flutter Driver for MCP-based UI automation and screenshots
+  flutter_lints: ^5.0.0
+
+  # Riverpod code generation
+  riverpod_generator: ^2.3.0
+  build_runner: ^2.4.0
+
+  # Freezed code generation for immutable models
+  freezed: ^2.4.0
+
+  # App icon generation from single source
+  flutter_launcher_icons: ^0.14.3
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

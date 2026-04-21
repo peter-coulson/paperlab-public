@@ -1,0 +1,4 @@
+# Cloudflare Pages routing - redirect old paths to anchor sections
+/legal/privacy-policy    /#privacy    301
+/beta                    /#beta       301
+/beta/                   /#beta       301

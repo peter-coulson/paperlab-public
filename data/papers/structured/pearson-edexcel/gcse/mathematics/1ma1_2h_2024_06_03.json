@@ -1,0 +1,787 @@
+{
+  "exam_type": {
+    "exam_board": "Pearson Edexcel",
+    "exam_level": "GCSE",
+    "subject": "Mathematics",
+    "paper_code": "1MA1/2H",
+    "display_name": "Paper 2 (Calculator)"
+  },
+  "paper_instance": {
+    "exam_date": "2024-06-03",
+    "total_marks": 80
+  },
+  "grade_boundaries": [
+    {"grade": "9", "min_raw_marks": 65, "display_order": 1},
+    {"grade": "8", "min_raw_marks": 54, "display_order": 2},
+    {"grade": "7", "min_raw_marks": 44, "display_order": 3},
+    {"grade": "6", "min_raw_marks": 34, "display_order": 4},
+    {"grade": "5", "min_raw_marks": 24, "display_order": 5},
+    {"grade": "4", "min_raw_marks": 14, "display_order": 6},
+    {"grade": "3", "min_raw_marks": 9, "display_order": 7}
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$ABC$ is a right-angled triangle.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Right-angled triangle ABC with the right angle at B. The hypotenuse AC is labelled 19 cm. The vertical side AB is labelled 10 cm. The horizontal side CB is unlabelled."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "Work out the length of $CB$. Give your answer correct to 3 significant figures.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write 90 as a product of its prime factors.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$A = 2^2 \\times 3$ and $B = 2 \\times 3^2$. Write down the lowest common multiple (LCM) of $A$ and $B$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The number of hours, $H$, that some machines take to make 5000 bottles is given by $H = \\frac{72}{n}$ where $n$ is the number of machines. On Monday, 6 machines made 5000 bottles. On Tuesday, 9 machines made 5000 bottles. The machines took more time to make the bottles on Monday than on Tuesday. How much more time?",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "There are only red discs, blue discs and yellow discs in a bag. There are 24 yellow discs in the bag. Mel is going to take at random a disc from the bag. The probability that the disc will be yellow is 0.16. The number of red discs : the number of blue discs $= 5 : 4$. Work out the number of red discs in the bag.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "total_marks": 6,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": []
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Complete the table of values for $y = x^2 - x$",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Table with x values: -2, -1, 0, 1, 2, 3. Corresponding y values given: 6 (for x=-2), blank (for x=-1), 0 (for x=0), blank (for x=1), 2 (for x=2), blank (for x=3)."
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "On the grid, draw the graph of $y = x^2 - x$ for values of $x$ from $-2$ to $3$",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Coordinate grid with x-axis from -2 to 3 and y-axis from -4 to 8. Grid lines shown at unit intervals."
+            }
+          ]
+        },
+        {
+          "part_letter": "c",
+          "sub_part_letter": null,
+          "display_order": 3,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use your graph to find estimates for the solutions of the equation $x^2 - x = 4$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Andy, Luke and Tina share some sweets in the ratio $1 : 6 : 14$. Tina gives $\\frac{3}{7}$ of her sweets to Andy. Tina then gives $12\\frac{1}{2}\\%$ of the rest of her sweets to Luke. Tina says, \"Now all three of us have the same number of sweets.\" Is Tina correct? You must show how you get your answer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$ABCD$ is a quadrilateral.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Quadrilateral ABCD with BC as the top horizontal side. Angle at A is labelled $(2x + 15)°$, angle at B is labelled $(4x + 15)°$, angle at C is labelled $(4x + 8)°$, and angle at D is labelled $(3x - 3)°$."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "All angles are measured in degrees. Show that $ABCD$ is a trapezium.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "A playground is in the shape of a right-angled triangle.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Right-angled triangle PQR with the right angle at Q. P is at the bottom left, Q is at the bottom right, and R is at the top right."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "Dan makes a scale drawing of the playground. He uses a scale of 1 cm represents 5 m. The area of the playground on the scale drawing is $28 \\text{ cm}^2$. The real length of $QR$ is 40 m. Work out the real length of $PQ$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "A number $N$ is rounded to 2 significant figures. The result is 7.3",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Write down the least possible value of $N$.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Leila says, \"The value of $N$ cannot be greater than 7.349 because 7.350 would round up to 7.4\" Is Leila correct? You must give a reason for your answer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The diagram shows two right-angled triangles.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Two right-angled triangles. The first triangle has hypotenuse 8, base $(7 - 2x)$, and angle $a$ at the top. The second triangle has vertical side $(1 + x)$, base 4, and angle $b$ at the bottom right."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "All lengths are measured in centimetres. Given that $\\sin a = \\tan b$, work out the value of $x$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "total_marks": 7,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The frequency table gives information about the weights of 60 parcels.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Frequency table with Weight (w kg) and Frequency columns. Rows: $0 < w \\leqslant 2$ has frequency 7, $2 < w \\leqslant 4$ has frequency 21, $4 < w \\leqslant 6$ has frequency 15, $6 < w \\leqslant 8$ has frequency 11, $8 < w \\leqslant 10$ has frequency 6."
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Complete the cumulative frequency table.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Empty cumulative frequency table with Weight (w kg) column showing: $0 < w \\leqslant 2$, $0 < w \\leqslant 4$, $0 < w \\leqslant 6$, $0 < w \\leqslant 8$, $0 < w \\leqslant 10$. Cumulative frequency column is blank."
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "On the grid opposite, draw a cumulative frequency graph for your table.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Empty coordinate grid with x-axis labelled 'Weight (w kg)' from 0 to 10, and y-axis labelled 'Cumulative frequency' from 0 to 60."
+            }
+          ]
+        },
+        {
+          "part_letter": "c",
+          "sub_part_letter": null,
+          "display_order": 3,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use your graph to find an estimate for the interquartile range.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "d",
+          "sub_part_letter": null,
+          "display_order": 4,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Use your graph to find an estimate for the number of these parcels with a weight greater than 7.4 kg.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$f$ is inversely proportional to $d^2$. $f = 3.5$ when $d = 8$",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Find an equation for $f$ in terms of $d$.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Find the positive value of $d$ when $f = 10$. Give your answer correct to 3 significant figures.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "diagram",
+              "display_order": 1,
+              "content_text": null,
+              "diagram_description": "Coordinate grid with x-axis from -6 to 6 and y-axis from -6 to 6. Grid lines shown at unit intervals."
+            },
+            {
+              "block_type": "text",
+              "display_order": 2,
+              "content_text": "On the grid, shade the region $R$ that satisfies all the following inequalities. $x \\leqslant 2$ \\quad $y \\geqslant -3$ \\quad $y \\leqslant 2x + 1$ \\quad $3x + 2y \\leqslant 6$. Label the region $R$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "total_marks": 6,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The graph shows the velocity of a car, in metres per second, $t$ seconds after it starts to slow down.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Velocity-time graph with Time (t seconds) on x-axis from 0 to 10, and Velocity (m/s) on y-axis from 0 to 30. A smooth decreasing curve starts at approximately (0, 25) and decreases to approximately (10, 0), showing exponential decay."
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Calculate an estimate for the acceleration of the car when $t = 5$. You must show all your working.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Work out an estimate for the distance the car travels in the first 6 seconds after it starts to slow down. Use 3 strips of equal width.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Given that $a$ is a prime number, rationalise the denominator of $\\frac{1}{\\sqrt{a} + 1}$. Give your answer in its simplest form.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Solve $(4x - 3)(x + 5) < 0$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$L$, $M$ and $P$ are three similar solid cylinders made from the same material.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Three cylinders of different sizes labelled L, M, and P. L is a medium-sized cylinder, M is the largest cylinder, and P is the smallest cylinder."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "$L$ has a mass of 64 g. $M$ has a mass of 125 g. $M$ has a total surface area of $144 \\text{ cm}^2$. $P$ has a total surface area of $16 \\text{ cm}^2$. Work out height of cylinder $L$ : height of cylinder $M$ : height of cylinder $P$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "There are only 4 red counters, 3 yellow counters and 1 green counter in a bag. Tony takes at random three counters from the bag. Work out the probability that there are now more yellow counters than red counters in the bag. You must show all your working.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "total_marks": 5,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The diagram shows quadrilateral $OACB$.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Quadrilateral OACB with O at bottom left, B at bottom right, A at top left, and C at top right. M is marked as the midpoint of OA. N is marked on line BC between B and C."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "$M$ is the midpoint of $OA$. $N$ is the point on $BC$ such that $BN : NC = 4 : 5$. $\\overrightarrow{OA} = \\mathbf{a}$ \\quad $\\overrightarrow{OB} = \\mathbf{b}$ \\quad $\\overrightarrow{AC} = k\\mathbf{b}$ where $k$ is a positive integer.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Express $\\overrightarrow{MN}$ in terms of $k$, $\\mathbf{a}$ and $\\mathbf{b}$. Give your answer in its simplest form.",
+              "diagram_description": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "Is $MN$ parallel to $OB$? Give a reason for your answer.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "total_marks": 3,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The curve $C$ has equation $y = 2x^2 - 12x + 7$. Find the coordinates of the turning point on $C$.",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "total_marks": 2,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "The graph of $y = g(x)$ is shown on the grid.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Coordinate grid with x-axis from -6 to 6 and y-axis from -6 to 6. A U-shaped curve labelled $y = g(x)$ is drawn."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "On the grid, draw the graph of $y = g(-x) + 2$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "total_marks": 4,
+      "parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "content_blocks": [
+            {
+              "block_type": "text",
+              "display_order": 1,
+              "content_text": "$A$ and $B$ are points on a circle, centre $O$.",
+              "diagram_description": null
+            },
+            {
+              "block_type": "diagram",
+              "display_order": 2,
+              "content_text": null,
+              "diagram_description": "Circle with centre O. Points A and B are on the circle. Point P is outside the circle to the right. Line MAP is a tangent to the circle at A, with M above A. Line NBP is a tangent to the circle at B, with N below B. Both tangents meet at point P."
+            },
+            {
+              "block_type": "text",
+              "display_order": 3,
+              "content_text": "$MAP$ and $NBP$ are tangents to the circle. Prove that $AP = BP$",
+              "diagram_description": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "llm_models": "data/config/llm_models.json",
+    "exam_configs": [
+      {
+        "board": "pearson-edexcel",
+        "level": "gcse",
+        "subject": "mathematics",
+        "path": "data/config/pearson-edexcel/gcse/mathematics.json"
+      }
+    ],
+    "validation_types": "data/evaluation/config/validation_types.json"
+  },
+  "default_samples": [
+    {
+      "name": "GCSE Maths Paper 1H Nov 2023",
+      "description": "Pearson Edexcel GCSE Mathematics (1MA1) Paper 1H from November 2023",
+      "paper": "data/papers/structured/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08.json",
+      "mark_scheme": "data/papers/structured/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08_marks.json"
+    },
+    {
+      "name": "GCSE Maths Paper 2H Nov 2023",
+      "description": "Pearson Edexcel GCSE Mathematics (1MA1) Paper 2H from November 2023",
+      "paper": "data/papers/structured/pearson-edexcel/gcse/mathematics/1ma1_2h_2023_11_10.json",
+      "mark_scheme": "data/papers/structured/pearson-edexcel/gcse/mathematics/1ma1_2h_2023_11_10_marks.json"
+    },
+    {
+      "name": "GCSE Maths Paper 3H Nov 2023",
+      "description": "Pearson Edexcel GCSE Mathematics (1MA1) Paper 3H from November 2023",
+      "paper": "data/papers/structured/pearson-edexcel/gcse/mathematics/1ma1_3h_2023_11_13.json",
+      "mark_scheme": "data/papers/structured/pearson-edexcel/gcse/mathematics/1ma1_3h_2023_11_13_marks.json"
+    }
+  ]
+}

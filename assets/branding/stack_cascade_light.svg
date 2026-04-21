@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Light blue background -->
+  <rect width="512" height="512" rx="64" fill="#3b82f6"/>
+  <!-- Cascading papers - diagonal stack -->
+  <g transform="translate(98, 52) scale(1.2)">
+    <!-- Back sheet -->
+    <rect x="64" y="0" width="200" height="260" rx="10" fill="rgba(255,255,255,0.4)"/>
+    <!-- Middle sheet -->
+    <rect x="32" y="40" width="200" height="260" rx="10" fill="rgba(255,255,255,0.7)"/>
+    <!-- Front sheet -->
+    <rect x="0" y="80" width="200" height="260" rx="10" fill="white"/>
+    <!-- Text lines on front sheet -->
+    <rect x="20" y="110" width="120" height="8" rx="4" fill="#3b82f6" opacity="0.2"/>
+    <rect x="20" y="130" width="160" height="8" rx="4" fill="#3b82f6" opacity="0.2"/>
+    <rect x="20" y="150" width="140" height="8" rx="4" fill="#3b82f6" opacity="0.2"/>
+  </g>
+</svg>

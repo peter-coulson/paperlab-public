@@ -1,0 +1,86 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Code style - enforce consistency
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_declarations: true
+
+    # Quality - improve code maintainability
+    avoid_print: false  # Acceptable for MVP - add proper logging for production
+    avoid_returning_null_for_void: true
+    prefer_final_fields: true
+    prefer_final_locals: true
+    unnecessary_late: true
+
+    # Safety - catch common mistakes
+    use_build_context_synchronously: true
+    always_use_package_imports: true
+    avoid_dynamic_calls: true
+
+    # Enforce explicit unawaited() for fire-and-forget Futures
+    # Prevents regression to cascade operator pattern that blocked UI
+    unawaited_futures: true
+
+    # Complexity - reduce cognitive load
+    avoid_classes_with_only_static_members: true
+    avoid_positional_boolean_parameters: true
+    prefer_constructors_over_static_methods: true
+
+    # Maintainability - encourage clean code
+    lines_longer_than_80_chars: true  # Warn on long lines (hint at complexity)
+    prefer_expression_function_bodies: true  # Encourage simple one-liner methods
+    avoid_multiple_declarations_per_line: true
+    cascade_invocations: true  # Encourage builder patterns
+
+    # Code organization - improve structure
+    directives_ordering: true  # Consistent import ordering
+    sort_constructors_first: true
+    sort_unnamed_constructors_first: true
+
+    # Widget-specific - Flutter best practices
+    use_key_in_widget_constructors: true
+    sized_box_for_whitespace: true
+    sized_box_shrink_expand: true
+    use_colored_box: true
+    use_decorated_box: true
+
+    # Type safety - catch potential issues
+    avoid_types_on_closure_parameters: false  # Be explicit for clarity
+    always_specify_types: false  # Let inference work, but be explicit when needed
+    type_annotate_public_apis: true  # Public APIs must have types
+
+    # Documentation - improve code readability
+    public_member_api_docs: false  # Too strict for MVP, enable for production
+    comment_references: true  # Validate doc comment references
+
+analyzer:
+  errors:
+    # Treat these as errors, not warnings
+    invalid_annotation_target: error
+    missing_required_param: error
+    missing_return: error
+
+    # Complexity warnings (these help catch the issues you're concerned about)
+    lines_longer_than_80_chars: warning  # Long lines often indicate complexity
+
+  exclude:
+    # Exclude generated files
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.mocks.dart"
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options

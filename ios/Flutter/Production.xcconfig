@@ -1,0 +1,4 @@
+// Force production environment for Xcode builds.
+// This overrides any ENVIRONMENT set in Generated.xcconfig by flutter-ui or flutter run.
+// Include this LAST in Debug.xcconfig and Release.xcconfig.
+DART_DEFINES=RU5WSVJPTk1FTlQ9cHJvZHVjdGlvbg==

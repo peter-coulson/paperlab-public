@@ -1,0 +1,7 @@
+{
+  "name": "Pipe Check - Single Question Validation",
+  "description": "Minimal test suite containing a single test case for validating that the evaluation pipeline (marking → extraction → storage) is functioning correctly end-to-end. Used for debugging and smoke testing the evaluation infrastructure.",
+  "test_case_json_paths": [
+    "data/evaluation/test_cases/pearson-edexcel/gcse/mathematics/1ma1_1h_2023_11_08/q01_mark_scheme_sanity_001.json"
+  ]
+}

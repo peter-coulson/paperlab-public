@@ -1,0 +1,1521 @@
+{
+  "exam_type": {
+    "exam_board": "Pearson Edexcel",
+    "exam_level": "GCSE",
+    "subject": "Mathematics",
+    "paper_code": "1MA1/3H",
+    "display_name": "Paper 3H (Calculator)"
+  },
+  "paper_instance": {
+    "exam_date": "2023-11-13",
+    "total_marks": 80
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": null,
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": null,
+              "marks_available": 0,
+              "content_blocks": [],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "expected_answer": "$4.68 \\times 10^5$",
+          "mark_criteria": [
+            {
+              "display_order": 1,
+              "mark_type_code": "B",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "expected_answer": "0.000 503 7",
+          "mark_criteria": [
+            {
+              "display_order": 2,
+              "mark_type_code": "B",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "80",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for complete method, eg $200 \\times 0.4$ \n\n or for $\\frac{80}{200}$ for the answer"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": null,
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": null,
+              "marks_available": 0,
+              "content_blocks": [],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "expected_answer": "24.6",
+          "mark_criteria": [
+            {
+              "display_order": 1,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for finding 5 products within intervals (including end points) with not more than one error, may be seen near table. [Guidance: Min $fx$ Max $fx$ 20 30 120 160 260 325 525 630 180 210] \n\n eg $2 \\times 12.5$ (= 25), $8 \\times 17.5$ (= 140), $13 \\times 22.5$ (=292.5), $21 \\times 27.5$ (= 577.5), $6 \\times 32.5$ (= 195) \n\n or for 1230"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $\\Sigma fx \\div \\Sigma f$ [Guidance: $\\Sigma fx$ must come from 5 products, $fx$ within intervals (including end points)] \n\n eg (\"25\" + \"140\" + \"292.5\" + \"577.5\" + \"195\") $\\div$ \"50\" \n\n or \"1230\" $\\div$ \"50\""
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 3,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for 24.6 oe"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "expected_answer": "No, with reason",
+          "mark_criteria": [
+            {
+              "display_order": 4,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for No **and** reason [Guidance: Any incorrect statement as part of a correct response can be ignored unless it contradicts the statement.] \n\n **Acceptable examples** \n\n No, the median is in the interval $25 < T \\leq 30$ \n\n No, the median is in the group containing the 25(.5)th temperature \n\n No, she did not take into account frequency \n\n No, the frequencies are not the same for each group. \n\n **Not acceptable examples** \n\n No, the median is 27.5 \n\n No, the median is higher than 22.5 \n\n $25 < T \\leq 30$ \n\n Yes, \u2026"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": null,
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": null,
+              "marks_available": 0,
+              "content_blocks": [],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "expected_answer": "Explanations",
+          "mark_criteria": [
+            {
+              "display_order": 1,
+              "mark_type_code": "C",
+              "marks_available": 2,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for two different correct explanations [Guidance: Any incorrect statement as part of a correct response can be ignored unless it contradicts the statement,] \n\n **Acceptable examples** \n\n She should have a solid/full/shaded/coloured circle at 4 \n\n It does not show that $x$ could be equal to 4 \n\n She should have marked/drawn a (clear/empty) circle at $-3$ \n\n The line should be drawn to $-3$ \n\n Jenna started from $-2$ not $-3$ \n\n **Not acceptable examples** \n\n Both circles should be black \n\n One circle should be filled in (needs to say which circle) \n\n She shouldn't have to reach number 4 \n\n Jenna has made no mistakes \n\n (C1 for one correct mistake described)"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "expected_answer": "4",
+          "mark_criteria": [
+            {
+              "display_order": 2,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for a correct first step, [Guidance: Allow use of any inequality or as an equation for the first mark] \n\n eg for adding 7 to both sides $5y - 7 + 7 < 16 + 7$ \n\n or for dividing throughout by 5 eg $\\frac{5y}{5} - \\frac{7}{5} < \\frac{16}{5}$ \n\n or for showing 4.6 (oe) as the critical value \n\n or for $5 \\times 4 - 7$ with 13 seen as answer [Guidance: Award 1 mark for 4.6 oe, eg $y = \\frac{23}{5}$ or $y < 4.6$]"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 3,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for 4 or $y = 4$ with no incorrect working [Guidance: An answer of 4 from incorrect working can score 1 mark at most.]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "4 packs and 5 boxes",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for start of a process to find common multiples of 30 and 24, [Guidance: 30, 60, 90, 120, 150, 180, 210, 240 \u2026 24, 48, 72, 96, 120, 144, 168, 192, 216, 240, \u2026 Condone the inclusion of 1 in factor trees or Venn diagrams for this mark] \n\n eg writes down at least 3 multiples of 30 and at least 3 multiples of 24 \n\n **or** \n\n draws factor trees for both 30 and 24 with no more than 1 error in total \n\n **or** \n\n draws a correct Venn diagram"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for identifying a common multiple [Guidance: May use any common multiple, 120, 240, 360...] \n\n eg 120 or 240 or $5 \\times 3 \\times 2 \\times 2 \\times 2$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for 4 packs and 5 boxes or any multiple of this pairing eg 8, 10 [Guidance: Award 0 marks for a correct answer without correct supportive working.]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "20",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $30 \\times 4 \\div 6$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "7 hours 56 minutes",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to begin to work with speed, eg $143 \\div 55$ (= 2.6) [Guidance: May work in minutes or hours and minutes]"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to work in minutes, [Guidance: Accept 2 or more decimal places for this mark] \n\n eg \"2.6\" $\\times$ 60 (= 156 mins) **and** $5 \\times 60 + 20$ (= 320 mins) or for 476 (mins) \n\n **or** \n\n for process to work in hours \n\n eg \"2.6\" and $\\frac{20}{60}$ (= 5.33...)...or for 7.93... \n\n **or** \n\n for process to work in hours and minutes, \n\n eg \"2\" + (\"0.6\" $\\times$ 60) (= 2 hrs 36 mins)"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "Shown",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for substitution to find area of face, [Guidance: Other equivalent methods should be credited accordingly] \n\n eg $3.5 = \\frac{504}{\\text{area}}$ or $3.5 \\times \\text{area} = 504$ or area = $504 \\div 3.5$ (= 144) \n\n **or** \n\n for working from surface area eg $900 \\div 6$ (= 150)"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for method to find comparable figures, \n\n eg \"144\" $\\times$ 6 (= 864) or \"150\" $\\times$ 3.5 (= 525) or $504 \\div$ \"150\" (=3.36\u2026) \n\n or for $504 \\div 3.5$ (= 144) and $900 \\div 6$ (= 150) \n\n or for $900 \\div 144$ (= 6.25) and 6"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for correct comparable figures, [Guidance: Condone incorrect units given.] \n\n eg 864 (and 900) **or** 144 and 150 **or** 525 (and 504) **or** 3.36\u2026 (and 3.5) **or** 6.25 and 6"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "$y = -2x + 3$",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for a correct method to find the gradient of the line, eg $\\frac{-1 - 3}{2 - 0}$ (= $-2$) \n\n **or** \n\n uses 3 as the intercept in $y = mx + c$, eg $y = mx + 3$ oe, $y = 1.5x + 3$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $y = [-2]x + c$, $c \\neq 0$ [Guidance: $[-2]$ must be identifiable as their gradient] \n\n or for (L=) $3 - 2x$ \n\n or uses their gradient and a point on the line, eg $y - -1 = [-2](x - 2)$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $y = -2x + 3$ oe [Guidance: Any correct equation gets 3 marks]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "$m = \\frac{5(k - p)}{2}$",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for a correct first step, [Guidance: Steps must be carried out not just intention seen] \n\n eg $k - p = \\frac{2m}{5}$ or $5k = 5p + 2m$ or $\\frac{k}{2} = \\frac{p}{2} + \\frac{m}{5}$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for a correct statement isolating $2m$, $-2m$, $\\frac{m}{5}$ or $-\\frac{m}{5}$ \n\n eg $5(k - p) = 2m$ or $5k - 5p = 2m$ or $\\frac{m}{5} = \\frac{k}{2} - \\frac{p}{2}$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $m = \\frac{5(k - p)}{2}$ oe [Guidance: Accept statements with $m$ on the right hand side, eg $\\frac{5(k - p)}{2} = m$]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "12",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process of working with area scale factor, \n\n eg area SF = $50^2$ (= 2500) or $0.5 \\times 0.5$ (= 0.25) or $48 \\times 50 \\times 50$ (= 120 000) \n\n **or** \n\n for process which uses 1 (m$^2$) = 10 000 (cm$^2$), eg $\\frac{48}{10000}$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for complete process, eg $\\frac{\"120000\"}{100 \\times 100}$ or \"0.25\" $\\times$ 48"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "246",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for start of process to find angle inside sector [Guidance: The size of the angle in the unshaded sector is 114] \n\n eg $\\frac{x}{360} \\times \\pi \\times 6.2^2 = 82.6$ or $\\frac{82.6}{\\pi \\times 6.2^2} \\times 360$ \n\n **or** \n\n for an answer in the range 113 to 114"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for answer in range 246 to 247 [Guidance: If an answer is shown in the range in working and then incorrectly rounded award full marks.]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": null,
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": null,
+              "marks_available": 0,
+              "content_blocks": [],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "expected_answer": "$\\frac{6}{80}$",
+          "mark_criteria": [
+            {
+              "display_order": 1,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for correct method using the graph at 90 cm, eg $80 - 74$ (= 6) [Guidance: Accept $80 - 75$ (= 5)]"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $\\frac{6}{80}$ oe, accept $\\frac{5}{80}$ oe [Guidance: Accept any equivalent fraction, decimal (0.075) or percentage (7.5%)]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "expected_answer": "60",
+          "mark_criteria": [
+            {
+              "display_order": 3,
+              "mark_type_code": "B",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for answer in the range 58.5 \u2013 61.5"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "c",
+          "sub_part_letter": null,
+          "display_order": 3,
+          "expected_answer": "35",
+          "mark_criteria": [
+            {
+              "display_order": 4,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for UQ = 75 or LQ = 40 [Guidance: Allow UQ in range 74 to 76 Allow LQ in range 39 to 41 Value(s) may be seen on graph]"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 5,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for answers in the range 34 to 36 or ft acceptable readings from the graph"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "d",
+          "sub_part_letter": null,
+          "display_order": 4,
+          "expected_answer": "Comparison made",
+          "mark_criteria": [
+            {
+              "display_order": 6,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "(ft) for a correct comparison of the IQRs [Guidance: The comparison must include some context (eg refers to heights or cm) Ignore any additional information provided there is no contradiction. Figures need not be seen but if given they must be correct.] \n\n eg the heights of the plants grown outside are more varied \n\n or \n\n the IQR of the plants grown outside is 35 cm but the IQR of the plants grown inside is only 30 cm."
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "$2n^2 + 3$",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for a correct start to a method to find the $n$th term [Guidance: Need to see constant second difference found and $2n^2$ Condone use of different variable throughout] \n\n eg constant 2nd differences of 4 and the term $2n^2$ \n\n or states $an^2 + bn + c$ (where $bn$ may be missing) and $2a = 4$ \n\n or gives the sequence 2, 8, 18, ..."
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "oe"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "Shown",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for method to find comparable ratios [Guidance: Fractions may be used. Accept 3 sf or more.] \n\n eg $(21.6 + 58.4) \\div 32$ (= 2.5) **and** $(32 + 22) \\div 21.6$ (= 2.5) \n\n or $32 \\div (21.6 + 58.4)$ (= 0.4) **and** $21.6 \\div (32 + 22)$ (= 0.4) \n\n or $21.6 \\div 32$ (= 0.675) **and** $(32 + 22) \\div (21.6 + 58.4)$ (= 0.675) \n\n or $32 \\div 21.6$ (= 1.4\u030781\u0307) **and** $(21.6 + 58.4) \\div (32 + 22)$ (= 1.4\u030781\u0307)"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for correct conclusion supported by the correct evaluation of 2 ratios to show they are equal [Guidance: We do not require reference to the common angle.]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "$\\frac{1}{120}$",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for correctly identifying at least two of the number of options, [Guidance: May be seen as part of a calculation Position of digit Number of options 1st 2 2nd 4 3rd 3 4th 5] \n\n eg 2 options for 1st digit, 4 options for 2nd digit"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to multiply the four numbers of options with at least three correct, \n\n eg $2 \\times 4 \\times 3 \\times 5$ (= 120) \n\n **or** \n\n for process to multiply 4 fractions with at least 3 correct \n\n $\\frac{1}{2} \\times \\frac{1}{4} \\times \\frac{1}{3} \\times \\frac{1}{5}$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $\\frac{1}{120}$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": null,
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": null,
+              "marks_available": 0,
+              "content_blocks": [],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": "i",
+          "display_order": 1,
+          "expected_answer": "$(x - 4)^2 - 13$",
+          "mark_criteria": [
+            {
+              "display_order": 1,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for start to method of completing the square, eg $(x - 4)^2$..."
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": "ii",
+          "display_order": 2,
+          "expected_answer": "(4, $-13$)",
+          "mark_criteria": [
+            {
+              "display_order": 3,
+              "mark_type_code": "B",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "ft from answer of form $(x - a)^2 - b$ [Guidance: This mark is dependent on a completed square form given in (a)(i)]"
+                }
+              ],
+              "depends_on_display_order": 1
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 3,
+          "expected_answer": "0.449 and $-1.59$",
+          "mark_criteria": [
+            {
+              "display_order": 4,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for substitution into quadratic formula, [Guidance: Condone one sign error] \n\n eg $\\frac{-8 \\pm \\sqrt{8^2 - 4 \\times 7 \\times -5}}{2 \\times 7}$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 5,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for simplification to $\\frac{-8 \\pm \\sqrt{204}}{14}$ or $\\frac{-4 \\pm \\sqrt{51}}{7}$ oe [Guidance: One correct solution in the required form out of two solutions given scores 2 marks.] \n\n or for one correct solution in decimal form."
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 6,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for 0.448 to 0.449 and $-1.59$ to $-1.6(0)$ [Guidance: If an answer is shown in the range in working and then incorrectly rounded award full marks.]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "c",
+          "sub_part_letter": null,
+          "display_order": 4,
+          "expected_answer": "Explanation",
+          "mark_criteria": [
+            {
+              "display_order": 7,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for explanation \n\n **Acceptable** \n\n He hasn't considered the coefficient of 3 \n\n He forgot about the 3 \n\n The answer $x = 2$ should be $x = \\frac{2}{3}$ \n\n The first bracket was not $k - 2$ \n\n $k = 2$ is wrong, he should have divided by 3 \n\n **Not acceptable** \n\n One of the answers is wrong \n\n The solutions are not correct \n\n He should have written $3(k - 2)(k + 4)$ \n\n The $3k$ should not be inside the bracket \n\n 2 added to $-4$ does not give 10 \n\n $k = 2$ is wrong"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": null,
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": null,
+              "marks_available": 0,
+              "content_blocks": [],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "expected_answer": "Triangle drawn",
+          "mark_criteria": [
+            {
+              "display_order": 1,
+              "mark_type_code": "B",
+              "marks_available": 2,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for correct enlargement at (7, $-10$) (4, $-4$) (7, $-4$) [Guidance: Label not necessary provided intention is clear] \n\n (B1 for triangle of correct size and orientation in the wrong position **or** for 2 vertices correct)"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "expected_answer": "Correct vector",
+          "mark_criteria": [
+            {
+              "display_order": 2,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for $\\begin{pmatrix} -5 \\\\ 7 \\end{pmatrix}$ or $\\begin{pmatrix} -7 \\\\ 9 \\end{pmatrix}$ or $\\begin{pmatrix} -3 \\\\ 13 \\end{pmatrix}$"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "2030",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to find diameter of base of small cone, \n\n eg 16 seen as diameter or 8 seen as radius \n\n **or** \n\n for scale factor (length) is $\\frac{2}{3}$ oe or $\\frac{3}{2}$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to find the volume of one cone, \n\n eg $\\frac{1}{3} \\times \\pi \\times 12^2 \\times 15$ (= $720\\pi$ or 2261.946\u2026) \n\n or \n\n $\\frac{1}{3} \\times \\pi \\times \"8\"^2 \\times 10$ (= $\\frac{640}{3}\\pi$ or 670.206...) \n\n or for process to find the volume of the hemisphere, \n\n eg $\\frac{2}{3} \\times \\pi \\times 12^3$ (= $1152\\pi$ or 3619.114\u2026) \n\n **or** \n\n for scale factor (volume) is $(\\frac{2}{3})^3$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for full process to find volume of frustum and hemisphere, \n\n eg \"2261.946\u2026\" \u2013 \"670.206\u2026\" (= $\\frac{1520}{3}\\pi$ or 1591.740\u2026) \n\n or \"2261.946\u2026\" $\\times (1 - (\\frac{2}{3})^3)$ \n\n **and** $(\\frac{4}{3} \\times \\pi \\times 12^3) \\div 2$ oe (= $1152\\pi$ or 3619.114\u2026)"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 3,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for answer in the range 2026 to 2030 [Guidance: If an answer is shown in the range in working and then incorrectly rounded award full marks.]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": null,
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": null,
+              "marks_available": 0,
+              "content_blocks": [],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "a",
+          "sub_part_letter": null,
+          "display_order": 1,
+          "expected_answer": "(4, 6)",
+          "mark_criteria": [
+            {
+              "display_order": 1,
+              "mark_type_code": "B",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        },
+        {
+          "part_letter": "b",
+          "sub_part_letter": null,
+          "display_order": 2,
+          "expected_answer": "Sketch",
+          "mark_criteria": [
+            {
+              "display_order": 2,
+              "mark_type_code": "B",
+              "marks_available": 2,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for a fully correct sketch including points (2, 6), ($-2$, $-4$), (6, $-4$) [Guidance: see end of mark scheme] \n\n (B1 for a correct sketch of f($-x$) or f($x$) + 3 including the maximum point and the endpoints)"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "27",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for start by finding one missing angle, [Guidance: Angles clearly identified on the diagram or in the working space may be awarded marks provided there is no ambiguity or contradiction.] \n\n eg angle $CBD = 35$ or angle $ADC = 90$ or angle $ACE = 117$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "M",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for making progress by finding a second angle, \n\n eg angle $BDE = 117$ or angle $DCE = 62$ or angle $BCA = 63$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for angle $BDC = 27$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 3,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "(dep on M1) for stating one correct circle theorem used [Guidance: Underlined words need to be shown; circle theorems stated need to be linked to their method, which can be implied from correctly identified angles (stated or written on the diagram).] \n\n eg Angles in a semicircle are 90 \n\n **or** Angles in the same segment are equal \n\n **or** Angles at the circumference subtended from the same arc of a circle are equal \n\n **or** The angle at the centre of a circle is twice the angle at the circumference"
+                }
+              ],
+              "depends_on_display_order": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "(\u00a3)9.37(9\u2026) and conclusion",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "B",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for stating at least one bound [Guidance: May be seen in calculations Accept 192.499... or 192.49\u0307 or 877.499... or 877.49\u0307 or 72.499\u2026 or 72.49\u0307] \n\n 187.5 or 192.5 or 192.499\u2026 \n\n or 872.5 or 877.5 or 877.499\u2026 \n\n or 71.5 or 72.5 or 72.499\u2026"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for correct use of LB and UB find the lower bound for profit, [Guidance: $872.5 \\leq$ [LB selling price] $< 875$ $190 <$ [UB costs] $\\leq 192.5$] \n\n eg [LB of selling price] \u2013 [UB of costs] (= $872.5 - 192.5$ (= 680))"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "(dep P1) for correct use of LB and UB to find the lower bound for hourly rate, eg [LB of profit] $\\div$ [UB of hours] [Guidance: LB profit = \"680\" $72 <$ [UB hours] $\\leq 72.5$]"
+                }
+              ],
+              "depends_on_display_order": 1
+            },
+            {
+              "display_order": 3,
+              "mark_type_code": "C",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for (\u00a3)9.37(9\u2026) and conclusion that Ebony does earn more than minimum wage with value from working with correct bounds [Guidance: $\\frac{872.5 - 192.5}{72.5}$ Accept bounds truncated or rounded to at least 2 dp]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 23,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "3 : 5",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to eliminate fractions, [Guidance: Alternative methods are acceptable] \n\n eg $11(2x^2 + y^2) = 43(4x^2 - y^2)$ or $22x^2 + 11y^2 = 172x^2 - 43y^2$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to isolate terms in $x^2$ and $y^2$, \n\n eg $54y^2 = 150x^2$ **or** $y^2 = \\frac{25x^2}{9}$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for full process to find a correct relationship between $x$ and $y$ [Guidance: Accept square roots, eg $\\sqrt{54}$ but not decimal approximations.] \n\n eg $y = \\frac{5x}{3}$ oe"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 3,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "cao"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 24,
+      "question_parts": [
+        {
+          "part_letter": null,
+          "sub_part_letter": null,
+          "display_order": 0,
+          "expected_answer": "12.2",
+          "mark_criteria": [
+            {
+              "display_order": 0,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to find $AP$, eg $\\frac{5}{7} \\times 14.7$ (= 10.5) [Guidance: Check diagram for working] \n\n **or** \n\n for showing the required angle on a diagram eg with an arc"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 1,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for process to find $MP$, eg $\\sqrt{\"10.5\"^2 + 1.9^2}$ oe (= 10.6...) \n\n or \n\n for a process to find $TP$, eg $\\sqrt{\"10.5\"^2 + 1.9^2 + 2.3^2}$ oe (= 10.9...)"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 2,
+              "mark_type_code": "P",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for using appropriate trigonometry ratio to find angle $TPM$, \n\n eg tan $TPM = \\frac{2.3}{\"10.6...\"}$ or sin $TPM = \\frac{2.3}{\"10.9...\"}$ or cos $TPM = \\frac{\"10.6...\"}{\"10.9...\"}$"
+                }
+              ],
+              "depends_on_display_order": null
+            },
+            {
+              "display_order": 3,
+              "mark_type_code": "A",
+              "marks_available": 1,
+              "content_blocks": [
+                {
+                  "block_type": "text",
+                  "display_order": 1,
+                  "content_text": "for answer in the range 12.1 to 12.2 [Guidance: If an answer is shown in the range in working and then incorrectly rounded award full marks.]"
+                }
+              ],
+              "depends_on_display_order": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

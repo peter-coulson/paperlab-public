@@ -1,0 +1,12 @@
+# Nixpacks configuration for Railway deployment
+# Explicit Python-only configuration for monorepo (backend only)
+
+# Force Python provider, ignore auto-detected Dart/Flutter
+# Omitting "..." means we override auto-detection instead of extending it
+providers = ['python']
+
+# Set PYTHONPATH for src-layout and start uvicorn
+[start]
+cmd = "PYTHONPATH=/app/src uvicorn paperlab.api.main:app --host 0.0.0.0 --port $PORT"
+
+# Nixpacks will auto-detect uv.lock and run: uv sync --no-dev --frozen
